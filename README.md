@@ -87,19 +87,13 @@ Shared domain models and business logic.
 
 - [`http_exception.dart`](lib/shared/exceptions/http_exception.dart): Defines custom HTTP exceptions.
 
-#### (`extensions/`)(lib/shared/extensions)
+#### [`extensions/`](lib/shared/extensions)
 
 - [`cache.dart`](lib/shared/extensions/cache.dart): Extensions for caching mechanisms.
 
 #### [`mixins/`](lib/shared/mixins)
 
 - [`exception_handler_mixin.dart`](lib/shared/mixins/exception_handler_mixin.dart): Mixin for handling exceptions in a standardized way.
-
-#### `widgets/`
-
-General reusable widgets across the app.
-
-- `widget.dart`: Commonly used widgets.
 
 # [`test/`](test)
 
