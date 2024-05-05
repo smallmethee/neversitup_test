@@ -1,0 +1,22 @@
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 Plugin FunctionalRefFix threw while analyzing /Users/x10/Documents/example/neversitup/lib/shared/domain/providers/dio_network_service_provider.dart:
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 type 'FunctionTypedFormalParameterImpl' is not a subtype of type 'SimpleFormalParameter' in type cast
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 #0      FunctionalRefFix.run.<anonymous closure>.<anonymous closure> (package:riverpod_lint/src/lints/functional_ref.dart:109:17)
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 #1      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:151:26)
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 <asynchronous suspension>
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 #2      Future.wait.<anonymous closure> (dart:async/future.dart:518:21)
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 <asynchronous suspension>
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 #3      _ChangeBuilderImpl._waitForCompletion (package:custom_lint_core/src/change_reporter.dart:167:5)
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 <asynchronous suspension>
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 #4      Future.wait.<anonymous closure> (dart:async/future.dart:518:21)
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 <asynchronous suspension>
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 #5      _ClientAnalyzerPlugin._handlesFixesForError (package:custom_lint_builder/src/client.dart:723:14)
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 <asynchronous suspension>
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 #6      Future.wait.<anonymous closure> (dart:async/future.dart:518:21)
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 <asynchronous suspension>
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 #7      _ClientAnalyzerPlugin.handleEditGetFixes (package:custom_lint_builder/src/client.dart:575:35)
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 <asynchronous suspension>
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 #8      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:564:18)
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 <asynchronous suspension>
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 #9      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[FunctionalRefFix] 2024-05-04T20:40:21.083043 <asynchronous suspension>
+[FunctionalRefFix] 2024-05-04T20:40:21.083043

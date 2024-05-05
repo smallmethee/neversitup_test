@@ -1,0 +1,1 @@
+ /Users/x10/Documents/example/flutter/neversitup_test/.dart_tool/flutter_build/2737163dd4f7b41f78e346f1669b688a/native_assets.yaml: 
